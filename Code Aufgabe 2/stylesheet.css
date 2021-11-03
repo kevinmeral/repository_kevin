@@ -1,0 +1,196 @@
+
+header {
+    background-color: #C9FBFF;
+    width: 1230px;
+    border: 30px solid #85BDBF;
+    padding: 250px;
+    margin: 30px;
+  }
+
+
+
+body   {background-color: #C2FCF7;}
+
+
+
+main  {
+        background-color: #C9FBFF;
+        width: 1230px;
+        border: 30px solid #85BDBF;
+        padding: 250px;
+        margin: 30px;
+      }
+
+
+h2 { background: 5F9EA0;
+   color: black;}
+
+  #wiewäreesmitkaribik {
+    background-color: #57737A;
+    color: #040F0F;
+  }
+
+  #secretplaces { background-color: rgb(207, 108, 108);
+  color: rgb(248, 9, 9);}
+
+
+
+  tr {background-color: #5F9EA0;
+  width: 1230px;
+  border: 30px solid #57737A;
+  padding: 250px;
+  margin: 30px;}
+
+
+
+
+  .ballsportart,
+  [href] {
+    background: antiquewhite;
+    color: black;
+  }
+p i {
+  background: yellow;
+  color: rgb(0, 0, 0)
+  ;
+}
+ 
+a {
+  font: cursive;
+  font: 100px ;
+  text-decoration: none;
+  color: white;
+  padding: 0px 70px 10px 80px;
+  border-right: 2px solid black;
+}
+    
+.selected {
+  height: 60px;
+  background: #85BDBF;
+  padding-top: 5px;
+  padding-left: 10px;
+  margin-top: 5px;
+  box-shadow: 4px 6px grey;
+  overflow: hidden;
+}
+
+h12 {
+  font-family: "Fruktur", cursive;
+  font-size: 6em;
+}
+
+
+.scrolltotop {
+  position: fixed;
+  left: 1%;
+  right: 1%;
+  top: 0vh;
+  height: 1px;
+  z-index: 5;
+}
+
+@keyframes pulse {
+  50% {
+    padding: 60px;
+    background-color: #C2FCF7;
+  }
+}
+h12 {
+  border: 1px solid white;
+  width: fit-content;
+  background-color: white;
+  padding: 10px;
+  animation: pulse 3s;
+  animation-iteration-count: infinite;
+}
+
+
+h1,h2 {
+  font-family: "Fruktur", cursive;
+  font-size: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.scrolltotop {
+
+  height: 50px;
+}
+
+.scrolltotop img {
+  width: 300px;
+  padding: 30px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  float: right;
+  margin: 0;
+}
+
+li {
+  display: inline;
+  padding: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #353535;
+  display: inline-block;
+  padding-top: 50px;
+}
+
+nav a:hover {
+  color: #00b2b2;
+}
+
+nav a:active {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 700px) {
+  nav {
+    width: 200%;
+    margin-top: -5px;
+  }
+
+  
+ }
+
+* {
+  font-family: Montserrat, sans-serif;
+}
+
+footer { 
+  background-color: wheat;
+  color: black;
+}
