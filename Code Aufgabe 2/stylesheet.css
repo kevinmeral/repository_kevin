@@ -108,6 +108,7 @@ h12 {
 h1,h2 {
   font-family: "Fruktur", cursive;
   font-size: 5em;
+  position: relative;
 }
 
 
@@ -193,4 +194,38 @@ nav a:active {
 footer { 
   background-color: wheat;
   color: black;
+}
+
+
+
+
+h1::after{
+  content: '';
+  height: 6px;
+  width: 900px;
+  background: linear-gradient(to right, yellow, blue ); 
+  position: absolute;
+
+  left: 0;
+  bottom: 0;
+}
+
+nav:after{
+  content: '';
+  height: 12px;
+  width: 0;
+  background-color: grey;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: .4s ease-in-out;
+}
+nav:hover::after{
+    width: 10000px;
+
+  }
+
+p::first-letter{
+  color: red;
+  font-size: 25px;
 }
