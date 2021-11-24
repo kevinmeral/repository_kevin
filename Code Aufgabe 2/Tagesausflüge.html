@@ -8,9 +8,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Kevin´s Reisen">
     <link rel="stylesheet" href="stylesheet.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
+
+   
+
+
     <div class="scrolltotop">
     <nav>
         <a class="selected" href="index.html">Startseite</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
@@ -41,9 +46,23 @@
     </main>
 
         
-        
-
-
+    <label></label> <br>
+    <input id="input-event" type="text" name="Tagesausflug" placeholder="Tagesausflug" /> <br>
+    <input id="input-preis" type="number" name="preis" placeholder="Preis"/>
+    <div id="display"></div>
+    <input type="datetime-local" id="eventtime" name="eventtime">
+    <button>Enter</button>
+    
+    <table id="Tabelle">
+        <tr>
+          <th>Tagesausflug</th>
+          <th>Preis</th>
+          <th>Datum</th>
+          <th>Tageszeit</th>
+          <th></th>
+        </tr>
+      </table>
+   
 
 
 
