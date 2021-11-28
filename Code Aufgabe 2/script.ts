@@ -25,11 +25,10 @@ namespace script {
     });
 
 
-  clear.addEventListener("click", (): void => {
-      localStorage.clear();
-  });
+  
 
   submit.addEventListener("click", (): void => {
+    console.log("test");
     createEvent(tagesausflugInput.value, preisInput.value, datumInput.value.substring(0, 10), datumInput.value.substring(11, 16), true);
     setTimeout(function(): void {
         clearInput();
@@ -49,13 +48,13 @@ namespace script {
         let löschZeile: HTMLElement = document.createElement("td");
         let löschButton: HTMLButtonElement = <HTMLButtonElement>document.createElement("button");
         löschButton.innerHTML = "Löschen";
-  
+        
         table.appendChild(tabellenEintrag);
         tabellenEintrag.appendChild(tagesausflug);
+        tabellenEintrag.appendChild(preis);
         tabellenEintrag.appendChild(datum);
         tabellenEintrag.appendChild(tageszeit);
-        tabellenEintrag.appendChild(preis);
-        tabellenEintrag.appendChild(löschButton);
+        tabellenEintrag.appendChild(löschZeile);
         löschZeile.appendChild(löschButton);
   
         
@@ -98,4 +97,7 @@ namespace script {
       rows = loadRows;
       loadRows = [];
   }
+
+
+  
 }
