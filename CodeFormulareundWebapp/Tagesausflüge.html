@@ -8,8 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Kevin´s Reisen">
     <link rel="stylesheet" href="stylesheet.css">
-    <script src="script.js" defer></script>
-    
+    <script src="Client/client.js"> </script>
 </head>
 
 <body>
@@ -48,23 +47,23 @@
 
         
     <label></label> <br>
-    <input id="Tagesausflug" type="text" name="Tagesausflug" placeholder="Tagesausflug" /> <br>
-    <input id="Preis" type="number" name="preis" placeholder="Preis"/>
+    <input id="input-event" type="text" name="Tagesausflug" placeholder="Tagesausflug" /> <br>
+    <input id="input-preis" type="number" name="preis" placeholder="Preis"/>
     <div id="display"></div>
-    <input type="datetime-local" id="Datum" name="eventtime">
-    <button id="submit">Enter</button>
+    <input type="datetime-local" id="eventtime" name="eventtime">
+    <button id="enter">Enter</button>
     
-    
-    <table id="Tabelle">
+
+    <table id="table">
         <tr>
-          <th>Tagesausflug</th>
+          <th>Ausflug</th>
           <th>Preis</th>
-          <th>Datum</th>
-          <th>Tageszeit</th>
-          <th></th>
+          <th>Time</th>
+          <th>Price</th>
+
+
         </tr>
       </table>
-   
 
 
 
